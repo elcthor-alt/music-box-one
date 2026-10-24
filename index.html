@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="EN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+
+    <title></title>
+  </head>
+  <body>
+    <article class="article">
+      <section class="section">
+        <div class="musiclist">
+          <audio
+            class="audio"
+            src="./music/Classicals.de - Chopin - Andantino 'Spring' B. 117.mp3"
+          ></audio>
+          <img class="img" src="./photos/images.jpeg" alt="" />
+        </div>
+
+        <div class="separator"></div>
+        <div class="duration">
+          <span class="current-time">0:0</span>
+          <span class="total-duration">0:0</span>
+        </div>
+
+        <div class="btns">
+          <ion-icon
+            class="play-back"
+            name="arrow-back-circle-outline"
+          ></ion-icon>
+          <ion-icon class="play-btn" name="play-circle-outline"></ion-icon>
+          <ion-icon class="stop-btn" name="pause-circle-outline"></ion-icon>
+          <ion-icon
+            class="play-next"
+            name="arrow-forward-circle-outline"
+          ></ion-icon>
+        </div>
+      </section>
+    </article>
+
+    <!-----script -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@8.0.13/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@8.0.13/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script src="./app.js"></script>
+    <!-----script -->
+  </body>
+</html>
